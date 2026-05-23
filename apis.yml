@@ -1,0 +1,109 @@
+aid: waymo
+name: Waymo
+description: >-
+  Waymo is the autonomous driving subsidiary of Alphabet, originally spun out of
+  the Google Self-Driving Car Project. The company develops the Waymo Driver,
+  a full Level 4 autonomous driving stack combining custom lidar, radar, and
+  camera sensors with proprietary perception, prediction, and planning models.
+  Waymo One operates a commercial robotaxi service in Phoenix, San Francisco,
+  Los Angeles, Austin, and other expanding US markets, with announced launches
+  in Tokyo and London. The company has logged tens of millions of rider-only
+  miles and reports significantly fewer serious-injury crashes than human-driven
+  benchmarks. Waymo does not publish a traditional public developer API. Its
+  primary developer-facing artifacts are the Waymo Open Dataset, the Waymo
+  Open Motion Dataset, the Waymax JAX-based driving simulator, and a robust
+  research publication catalogue spanning perception, behaviour prediction,
+  planning, simulation, and end-to-end driving. Consumer access is through the
+  Waymo One mobile app.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+access: 3rd-Party
+created: '2026-05-23'
+modified: '2026-05-23'
+position: Consumer
+tags:
+  - Autonomous Vehicles
+  - Self-Driving
+  - Robotaxi
+  - Ride-Hailing
+  - Alphabet
+  - Lidar
+  - Computer Vision
+  - Open Dataset
+  - Simulation
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/waymo/refs/heads/main/apis.yml
+specificationVersion: '0.19'
+apis:
+  - aid: waymo:open-dataset
+    name: Waymo Open Dataset
+    description: >-
+      A large-scale, high-quality multimodal sensor dataset (lidar, camera) for
+      autonomous driving research, released under a non-commercial research
+      license. Includes labelled 3D and 2D object data, segmentation, and the
+      Waymo Open Motion Dataset for interactive motion forecasting. Distributed
+      as TFRecord files with a Python devkit on GitHub. Powers an annual
+      research challenge series at CVPR.
+    humanURL: https://waymo.com/open
+    baseURL: https://github.com/waymo-research/waymo-open-dataset
+    tags:
+      - Open Dataset
+      - Lidar
+      - Camera
+      - Motion Forecasting
+      - Research
+    properties:
+      - type: Documentation
+        url: https://waymo.com/open/data/
+      - type: Repository
+        url: https://github.com/waymo-research/waymo-open-dataset
+      - type: Challenges
+        url: https://waymo.com/open/challenges/
+  - aid: waymo:waymax
+    name: Waymax Driving Simulator
+    description: >-
+      Waymax is a JAX-based, lightweight, multi-agent simulator for autonomous
+      driving research, designed for accelerated training and evaluation of
+      driving policies. Open-sourced by Waymo Research and used to benchmark
+      behaviour-prediction and planning models against logged Waymo Open Motion
+      Dataset scenarios.
+    humanURL: https://github.com/waymo-research/waymax
+    baseURL: https://github.com/waymo-research/waymax
+    tags:
+      - Simulator
+      - JAX
+      - Reinforcement Learning
+      - Research
+    properties:
+      - type: Repository
+        url: https://github.com/waymo-research/waymax
+common:
+  - type: Website
+    url: https://waymo.com
+  - type: AboutUs
+    url: https://waymo.com/company/
+  - type: Newsroom
+    url: https://waymo.com/press/
+  - type: Blog
+    url: https://blog.waymo.com
+  - type: Safety
+    url: https://waymo.com/safety/
+  - type: Research
+    url: https://waymo.com/research/
+  - type: OpenDataset
+    url: https://waymo.com/open
+  - type: GitHubOrganization
+    url: https://github.com/waymo-research
+  - type: SupportCenter
+    url: https://support.google.com/waymo
+  - type: Careers
+    url: https://careers.withwaymo.com
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/waymo
+  - type: Twitter
+    url: https://twitter.com/Waymo
+  - type: YouTube
+    url: https://www.youtube.com/@Waymo
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
