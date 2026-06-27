@@ -2,11 +2,11 @@
   "repo": "waymo",
   "feeds": [
     {
-      "source": "https://waymo.com/blog/",
+      "source": "https://waymo.com/blog/rss.xml",
       "feed_url": "https://waymo.com/blog/rss.xml",
       "title": "",
-      "saved": 3,
-      "method": "discovered"
+      "saved": 0,
+      "method": "feed"
     },
     {
       "source": "https://waymo.com/press/",
@@ -17,5 +17,5 @@
     }
   ],
   "post_count": 4,
-  "fetched": "2026-06-14T20:42:17Z"
+  "fetched": "2026-06-27T12:03:07Z"
 }
