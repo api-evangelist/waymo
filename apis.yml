@@ -78,6 +78,8 @@ apis:
       - type: Repository
         url: https://github.com/waymo-research/waymax
 common:
+  - type: DomainSecurity
+    url: security/waymo-domain-security.yml
   - type: Website
     url: https://waymo.com
   - type: AboutUs
