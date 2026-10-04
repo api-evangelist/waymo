@@ -51,9 +51,10 @@ tags:
   - Ride Hailing
   - Alphabet
   - LiDAR
-  - Computer-Vision
+  - Computer Vision
   - Open Dataset
   - Simulation
+  - Mobility
 tags_raw:
   - Autonomous Vehicles
   - Self-Driving
@@ -64,6 +65,8 @@ tags_raw:
   - Computer Vision
   - Open Dataset
   - Simulation
+  - Computer-Vision
+  - Mobility
 url: >-
   https://raw.githubusercontent.com/api-evangelist/waymo/refs/heads/main/apis.yml
 specificationVersion: '0.23'
