@@ -1,0 +1,132 @@
+generated: '2026-10-20'
+method: derived
+source: the pre-flight dossier, apis.yml pointers, spec servers, well-known, vendors -- nothing fetched here
+generator: derive-hosts.py
+summary:
+  hosts: 11
+  own: 3
+  other_domain: 4
+  platform: 4
+  roles:
+  - api
+  - marketing
+  - other
+  - source
+  - support
+  - website
+hosts:
+- host: api.google.com
+  found_by:
+  - contract-discovery
+  types: []
+  serves: []
+  registrable_domain: google.com
+  role: api
+  relation: other-domain
+- host: api.waymo.com
+  found_by:
+  - contract-discovery
+  types: []
+  serves: []
+  registrable_domain: waymo.com
+  role: api
+  relation: own
+- host: api.withwaymo.com
+  found_by:
+  - contract-discovery
+  types: []
+  serves: []
+  registrable_domain: withwaymo.com
+  role: api
+  relation: other-domain
+- host: blog.waymo.com
+  found_by:
+  - pointer
+  - probed
+  - site-links
+  - contract-discovery
+  - well-known
+  types:
+  - Blog
+  serves: []
+  registrable_domain: waymo.com
+  role: marketing
+  relation: own
+- host: careers.withwaymo.com
+  found_by:
+  - pointer
+  - probed
+  - well-known
+  types:
+  - Careers
+  serves: []
+  registrable_domain: withwaymo.com
+  role: marketing
+  relation: other-domain
+- host: github.com
+  found_by:
+  - pointer
+  types:
+  - GitHubOrganization
+  - ProductPage
+  serves: []
+  registrable_domain: github.com
+  role: source
+  relation: platform
+- host: support.google.com
+  found_by:
+  - pointer
+  - probed
+  - well-known
+  types:
+  - SupportCenter
+  serves: []
+  registrable_domain: google.com
+  role: support
+  relation: other-domain
+- host: twitter.com
+  found_by:
+  - pointer
+  types:
+  - Twitter
+  serves: []
+  registrable_domain: twitter.com
+  role: other
+  relation: platform
+- host: waymo.com
+  found_by:
+  - pointer
+  - probed
+  - contract-discovery
+  - well-known
+  types:
+  - TermsOfService
+  - PrivacyPolicy
+  - Website
+  - AboutUs
+  - Newsroom
+  - Safety
+  - Research
+  - OpenDataset
+  serves: []
+  registrable_domain: waymo.com
+  role: website
+  relation: own
+- host: www.linkedin.com
+  found_by:
+  - pointer
+  types:
+  - LinkedIn
+  serves: []
+  registrable_domain: linkedin.com
+  role: other
+  relation: platform
+- host: www.youtube.com
+  found_by:
+  - pointer
+  types:
+  - YouTube
+  serves: []
+  registrable_domain: youtube.com
+  role: other
+  relation: platform

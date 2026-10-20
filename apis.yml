@@ -1,5 +1,7 @@
 aid: waymo
+
 name: Waymo
+
 description: >-
   Waymo is the autonomous driving subsidiary of Alphabet, originally spun out of
   the Google Self-Driving Car Project. The company develops the Waymo Driver,
@@ -15,7 +17,9 @@ description: >-
   research publication catalogue spanning perception, behaviour prediction,
   planning, simulation, and end-to-end driving. Consumer access is through the
   Waymo One mobile app.
+
 type: Index
+
 deliveryModel:
   model: unknown
   open_source: false
@@ -27,6 +31,7 @@ deliveryModel:
   - none
   generated: '2026-08-28'
   method: derived
+
 accessModel:
   pricing: free
   onboarding: unknown
@@ -39,11 +44,17 @@ accessModel:
     - plans
   generated: '2026-07-22'
   method: derived
+
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/waymo.png
+
 access: 3rd-Party
+
 created: '2026-05-23'
+
 modified: '2026-07-25'
+
 position: Consuming
+
 tags:
   - Autonomous Vehicles
   - Self-Driving
@@ -55,6 +66,7 @@ tags:
   - Open Dataset
   - Simulation
   - Mobility
+
 tags_raw:
   - Autonomous Vehicles
   - Self-Driving
@@ -67,11 +79,29 @@ tags_raw:
   - Simulation
   - Computer-Vision
   - Mobility
+
 url: >-
   https://raw.githubusercontent.com/api-evangelist/waymo/refs/heads/main/apis.yml
+
 specificationVersion: '0.23'
-apis: []
+
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
+
 common:
+  - type: LLMsTxt
+    url: llms/waymo-llms.txt
+  - type: Hosts
+    url: hosts/waymo-hosts.yml
+  - type: SDKs
+    url: packages/waymo-packages.yml
+  - type: Packages
+    url: packages/waymo-packages.yml
+  - type: TermsOfService
+    url: https://waymo.com/terms/
+  - type: PrivacyPolicy
+    url: https://waymo.com/privacy/
   - type: Plans
     url: plans/waymo-plans-pricing.yml
   - type: RateLimits
@@ -108,6 +138,20 @@ common:
     url: https://www.youtube.com/@Waymo
   - type: ProductPage
     url: https://github.com/waymo-research/waymax
-maintainers:
-  - FN: Kin Lane
-    email: kin@apievangelist.com
+
+apis: []
+x-enrichment:
+  date: '2026-10-20'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v5
+x-coverage:
+  state: none
+  reason: no-developer-program
+  detail: Waymo publishes no public developer API; its developer-facing surface is the Waymo Open Dataset (waymo.com/open, PyPI toolkit, protobuf data formats) and the Waymax simulator on github.com/waymo-research, and the API/OpenAPI/MCP probes on waymo.com and api.waymo.com all missed.
+  evidence:
+    - url: https://waymo.com/open/
+      status: 200
+    - url: https://waymo.com/security/
+      status: 404
+  checked: '2026-10-20'

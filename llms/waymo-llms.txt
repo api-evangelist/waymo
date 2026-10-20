@@ -1,0 +1,44 @@
+# Waymo
+
+> Waymo is an autonomous driving technology company with a mission to be the
+> most trusted driver. Waymo One is the first commercially available
+> autonomous ride-hailing service, available 24/7 in cities including
+> San Francisco, Phoenix, Los Angeles, and Austin.
+
+Waymo began as the Google Self-Driving Car Project in 2009 and is a subsidiary
+of Alphabet Inc. The Waymo Driver is the autonomous technology that powers
+Waymo's products, combining cameras, lidar, and radar with AI to drive fully
+autonomously without a human behind the wheel.
+
+## Main pages
+
+- [Rides](https://waymo.com/rides/): How Waymo One works, where it's
+  available, and how to ride.
+- [Waymo Driver](https://waymo.com/waymo-driver/): The autonomous driving
+  technology behind Waymo's products.
+- [Safety](https://waymo.com/safety/): Waymo's approach to safety, safety
+  framework, and performance data.
+- [About](https://waymo.com/about/): Company story, leadership, and resources.
+- [Community](https://waymo.com/community/): Community partnerships and local
+  impact.
+- [FAQ](https://waymo.com/faq/): Frequently asked questions about riding with
+  Waymo.
+
+## Research and data
+
+- [Research](https://waymo.com/research/): Published research papers from
+  Waymo's research team.
+- [Waymo Open Dataset](https://waymo.com/open/): Open datasets and challenges
+  for autonomous driving research.
+- [Safety research](https://waymo.com/safety/research/): Safety methodology
+  papers and analyses.
+
+## News and updates
+
+- [Blog](https://waymo.com/blog/): News and stories from Waymo.
+
+## Optional
+
+- [Careers](https://careers.withwaymo.com): Open roles and working at Waymo.
+- [Waymo for business](https://waymo.com/business): Waymo One for business
+  travel and corporate partnerships.
